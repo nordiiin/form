@@ -1,0 +1,194 @@
+{
+    "formSections": [
+        {
+            "id": "user-form-settings",
+            "componentType": "form",
+            "component": {
+                "ajax": "false",
+                "attr": "novalidate",
+                "framework": "bs5",
+                "iconFont": "font-awesome",
+                "iconFontUrl": "//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css",
+                "id": "date-form",
+                "layout": "horizontal",
+                "plugins": [
+                    {
+                        "dataAttributes": [],
+                        "objectName": "Formvalidation",
+                        "pluginName": "formvalidation",
+                        "isjQuery": false,
+                        "jsConfig": "default",
+                        "replacements": {
+                            "language": "en_US"
+                        },
+                        "selector": "#date-form"
+                    }
+                ],
+                "aftervalidation": "",
+                "redirectUrl": "",
+                "senderEmail": "",
+                "recipientEmail": "",
+                "subject": "",
+                "senderName": "",
+                "replyToEmail": "",
+                "sentMessage": "",
+                "dbTable": "",
+                "dbPrimary": "",
+                "dbFilter": ""
+            }
+        },
+        {
+            "id": "s-96skwiwvf6cv3y2bd02fch",
+            "componentType": "input",
+            "component": {
+                "componentType": "input",
+                "helper": "",
+                "icon": "",
+                "iconPosition": "before",
+                "plugins": [
+                    {
+                        "dataAttributes": [
+                            {
+                                "name": "litepick",
+                                "value": "true"
+                            },
+                            {
+                                "name": "auto-apply",
+                                "value": "true"
+                            },
+                            {
+                                "name": "delimiter",
+                                "value": "-"
+                            },
+                            {
+                                "name": "dropdown-min-year",
+                                "value": "2020"
+                            },
+                            {
+                                "name": "dropdown-max-year",
+                                "value": ""
+                            },
+                            {
+                                "name": "dropdown-months",
+                                "value": "false"
+                            },
+                            {
+                                "name": "dropdown-years",
+                                "value": "false"
+                            },
+                            {
+                                "name": "first-day",
+                                "value": "1"
+                            },
+                            {
+                                "name": "format",
+                                "value": "YYYY-MM-DD"
+                            },
+                            {
+                                "name": "inline-mode",
+                                "value": "false"
+                            },
+                            {
+                                "name": "lang",
+                                "value": "en-US"
+                            },
+                            {
+                                "name": "max-date",
+                                "value": ""
+                            },
+                            {
+                                "name": "max-days",
+                                "value": ""
+                            },
+                            {
+                                "name": "min-date",
+                                "value": ""
+                            },
+                            {
+                                "name": "min-days",
+                                "value": ""
+                            },
+                            {
+                                "name": "number-of-columns",
+                                "value": "1"
+                            },
+                            {
+                                "name": "number-of-months",
+                                "value": "1"
+                            },
+                            {
+                                "name": "reset-button",
+                                "value": "false"
+                            },
+                            {
+                                "name": "single-mode",
+                                "value": "false"
+                            },
+                            {
+                                "name": "split-view",
+                                "value": "true"
+                            },
+                            {
+                                "name": "start-date",
+                                "value": ""
+                            }
+                        ],
+                        "objectName": "Litepicker",
+                        "pluginName": "litepicker",
+                        "isjQuery": false,
+                        "jsConfig": "default",
+                        "replacements": [],
+                        "selector": "#datum"
+                    }
+                ],
+                "attr": [],
+                "clazz": "",
+                "index": 1,
+                "label": "Datum",
+                "name": "datum",
+                "placeholder": "",
+                "type": "text",
+                "value": "",
+                "width": "100%"
+            }
+        }
+    ],
+    "uiForm": {
+        "attr": "novalidate",
+        "id": "date-form",
+        "layout": "horizontal"
+    },
+    "userForm": {
+        "ajax": "false",
+        "attr": "novalidate",
+        "framework": "bs5",
+        "iconFont": "font-awesome",
+        "iconFontUrl": "//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css",
+        "id": "date-form",
+        "layout": "horizontal",
+        "plugins": [
+            {
+                "dataAttributes": [],
+                "objectName": "Formvalidation",
+                "pluginName": "formvalidation",
+                "isjQuery": false,
+                "jsConfig": "default",
+                "replacements": {
+                    "language": "en_US"
+                },
+                "selector": "#date-form"
+            }
+        ],
+        "aftervalidation": "",
+        "redirectUrl": "",
+        "senderEmail": "",
+        "recipientEmail": "",
+        "subject": "",
+        "senderName": "",
+        "replyToEmail": "",
+        "sentMessage": "",
+        "dbTable": "",
+        "dbPrimary": "",
+        "dbFilter": ""
+    }
+}
