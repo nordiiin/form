@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'Formular'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_44C48442EF504D139867978E0CDEFF63 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AA0477FDAE8E42AD9441FF044B4E76B3 }}
           package: .
